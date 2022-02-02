@@ -7,7 +7,7 @@ interface IModal {
     children: ReactNode;
 }
 
-export function Modal({
+export function DefaultModal({
     isOpen,
     onRequestClose,
     children

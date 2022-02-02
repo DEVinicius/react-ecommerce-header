@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle`
         text-decoration: none;
     }
 
+    button {
+        cursor: pointer;
+    }
+
     .react-modal-overlay {
         background: rgba(0,0, 0, 0.5);
         position: fixed;

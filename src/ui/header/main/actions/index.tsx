@@ -1,11 +1,12 @@
 import { FiUser } from "react-icons/fi";
+import { CartAction } from "./cart";
 import { Action, Container, Login } from "./style";
 
 export function Actions() {
     return (
         <Container>
             <Action>
-                
+                <CartAction />
             </Action>
             <Login>
                 <FiUser />

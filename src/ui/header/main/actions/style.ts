@@ -6,6 +6,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    justify-content: space-around;
+
+    width: 20rem;
 `;
 
 export const Action = styled.aside``;
