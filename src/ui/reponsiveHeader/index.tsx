@@ -1,5 +1,11 @@
+import { BottomHeader } from "./bottomHeader";
+import { TopHeader } from "./topHeader";
+
 export function ResponsiveHeader() {
     return (
-        <h1>HEADER</h1>
+        <>
+            <TopHeader /> 
+            <BottomHeader />
+        </>
     )
 }
