@@ -1,5 +1,12 @@
+import { Cart } from "./cart";
+import { Categories } from "./categories";
+import { Container } from "./style";
+
 export function BottomHeader() {
     return(
-        <h1>teste</h1>
+        <Container>
+            <Categories/>
+            <Cart />
+        </Container>
     )
 }
