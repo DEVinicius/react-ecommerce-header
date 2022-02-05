@@ -19,10 +19,13 @@ export function CartAction() {
             <Container onMouseOver={handleOpenCartModal}>
                 <FiShoppingCart />
             </Container>
-            <CartModal 
-                isOpen={cartModal}
-                onRequestClose={handleCloseCartModal}
-            />
+            {
+                cartModal && (
+                    <CartModal 
+                        onRequestClose={handleCloseCartModal}
+                    />
+                )
+            }
         </>
     );
 }
