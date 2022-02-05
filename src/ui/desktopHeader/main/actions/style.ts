@@ -1,4 +1,4 @@
-import { colors } from './../../../../config/colors';
+import { colors } from '../../../../config/colors';
 import styled from "styled-components";
 import { shade } from 'polished';
 

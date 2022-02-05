@@ -17,6 +17,17 @@ export const GlobalStyle = createGlobalStyle`
         cursor: pointer;
     }
 
+    @media(max-width: 1400px) {
+    html {
+        font-size: 85%;
+        }
+    }
+    @media(max-width: 720px) {
+        html {
+            font-size: 55%;
+        }
+    }
+
     .react-modal-overlay {
         background: rgba(0,0, 0, 0.5);
         position: fixed;

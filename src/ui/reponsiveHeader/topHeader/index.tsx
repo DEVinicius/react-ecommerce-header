@@ -1,9 +1,9 @@
 import { Container } from "./style";
 
-export function ShopByDepartament() {
-    return(
+export function TopHeader() {
+    return (
         <Container>
-
+            
         </Container>
     );
 }
